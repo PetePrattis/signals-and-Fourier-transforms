@@ -1,5 +1,5 @@
 x = 0;
 y = 0;
 Dt=0.008;
-x = input('Eisagete sima eisodou:');
+x = input('Input signal:');
 y = Dt*fft(x)
